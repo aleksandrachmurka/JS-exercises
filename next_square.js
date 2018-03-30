@@ -12,7 +12,7 @@
 
 function findNextSquare(num) {
 	let sqr= Math.sqrt(num);
-	if (Number.inInteger(sqr)) {
+	if (Number.isInteger(sqr)) {
 		sqr = sqr + 1;
 		let pow = Math.pow(sqr, 2);
 		return pow;
